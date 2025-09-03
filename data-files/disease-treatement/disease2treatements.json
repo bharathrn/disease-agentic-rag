@@ -1,0 +1,1023 @@
+[
+  {
+    "disease_id": "OMIM:619340",
+    "name": "Developmental and Epileptic Encephalopathy 96",
+    "treatments": [
+      "Symptomatic seizure control with anti-seizure medications",
+      "Ketogenic diet (case-by-case)",
+      "Epilepsy surgery if a focal, operable etiology is identified",
+      "Multidisciplinary developmental therapies (PT/OT/SLP)"
+    ]
+  },
+  {
+    "disease_id": "OMIM:609153",
+    "name": "Pseudohyperkalemia, familial, 2, due to red cell leak",
+    "treatments": [
+      "No treatment required (laboratory artifact)",
+      "Ensure correct sample handling and interpretation to avoid unnecessary therapy"
+    ]
+  },
+  {
+    "disease_id": "OMIM:614102",
+    "name": "Immunoglobulin kappa light chain deficiency",
+    "treatments": [
+      "Observation if asymptomatic",
+      "Prophylactic antibiotics for recurrent infections",
+      "Immunoglobulin replacement therapy (IVIG/SCIG) when indicated"
+    ]
+  },
+  {
+    "disease_id": "OMIM:619426",
+    "name": "White-Kernohan syndrome",
+    "treatments": [
+      "No disease-specific therapy; supportive developmental care",
+      "Symptom-directed management and rehabilitation"
+    ]
+  },
+  {
+    "disease_id": "OMIM:610370",
+    "name": "Diarrhea 4, malabsorptive, congenital",
+    "treatments": [
+      "Nutritional support and management of malabsorption",
+      "Parenteral nutrition when required",
+      "Electrolyte and fluid management",
+      "Management of associated endocrine or metabolic deficits"
+    ]
+  },
+  {
+    "disease_id": "OMIM:609621",
+    "name": "Short QT syndrome 2",
+    "treatments": [
+      "Implantable cardioverter-defibrillator (ICD) in high-risk patients",
+      "Antiarrhythmic therapy (e.g., quinidine) to prolong QT",
+      "Avoid QT-shortening drugs; family screening"
+    ]
+  },
+  {
+    "disease_id": "OMIM:212790",
+    "name": "Premature centromere division",
+    "treatments": [
+      "No established disease-specific treatment",
+      "Supportive and symptom-based care"
+    ]
+  },
+  {
+    "disease_id": "OMIM:612567",
+    "name": "Inflammatory bowel disease 25, early onset, autosomal recessive",
+    "treatments": [
+      "General pediatric IBD protocols (steroids, immunomodulators, biologics) individualized to patient",
+      "Nutritional therapy and growth monitoring",
+      "Infection prophylaxis and vaccination review"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:425",
+    "name": "Phenylketonuria (PKU)",
+    "treatments": [
+      "Strict low-phenylalanine diet",
+      "Sapropterin dihydrochloride (BH4) therapy",
+      "Regular blood phenylalanine monitoring",
+      "Protein substitutes and medical foods"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:586",
+    "name": "Cystic fibrosis",
+    "treatments": [
+      "CFTR modulators (genotype-dependent)",
+      "Airway clearance therapy",
+      "Pancreatic enzyme replacement",
+      "Antibiotics for pulmonary infections"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:2309",
+    "name": "Spinal muscular atrophy type 1",
+    "treatments": [
+      "Nusinersen or risdiplam",
+      "Onasemnogene abeparvovec (gene therapy)",
+      "Respiratory and nutritional support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:584",
+    "name": "Sickle cell disease",
+    "treatments": [
+      "Hydroxyurea",
+      "Chronic transfusion therapy",
+      "L-glutamine or voxelotor (selected patients)",
+      "Allogeneic HSCT in eligible cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:98896",
+    "name": "Hemophilia A",
+    "treatments": [
+      "Factor VIII replacement (standard or extended half-life)",
+      "Emicizumab prophylaxis",
+      "Desmopressin for mild cases",
+      "Antifibrinolytics for mucosal bleeding"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:98897",
+    "name": "Hemophilia B",
+    "treatments": [
+      "Factor IX replacement (standard or extended half-life)",
+      "Gene therapy in selected adults",
+      "Antifibrinolytics for mucosal bleeding"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79290",
+    "name": "Long QT syndrome type 1",
+    "treatments": [
+      "Beta-blockers",
+      "Lifestyle modification and trigger avoidance",
+      "ICD in high-risk cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79291",
+    "name": "Long QT syndrome type 2",
+    "treatments": [
+      "Beta-blockers",
+      "Potassium supplementation if needed",
+      "ICD in high-risk cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79292",
+    "name": "Long QT syndrome type 3",
+    "treatments": [
+      "Sodium channel blockers (e.g., mexiletine) in selected cases",
+      "Beta-blockers",
+      "ICD in high-risk cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:666",
+    "name": "Duchenne muscular dystrophy",
+    "treatments": [
+      "Glucocorticoids",
+      "Exon-skipping therapies (genotype-dependent)",
+      "Cardiac and respiratory management",
+      "Physical therapy"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:287",
+    "name": "Gaucher disease type 1",
+    "treatments": [
+      "Enzyme replacement therapy (imiglucerase/velaglucerase/taliglucerase)",
+      "Substrate reduction therapy (eliglustat)",
+      "Bone and hematologic complication management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:355",
+    "name": "Pompe disease",
+    "treatments": [
+      "Enzyme replacement therapy (alglucosidase alfa/avalglucosidase)",
+      "Respiratory and nutritional support",
+      "Physical therapy"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:636",
+    "name": "Fabry disease",
+    "treatments": [
+      "Enzyme replacement therapy (agalsidase)",
+      "Chaperone therapy (migalastat)",
+      "Renal and cardiac complication management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79232",
+    "name": "Hypertrophic cardiomyopathy",
+    "treatments": [
+      "Beta-blockers or non-dihydropyridine calcium channel blockers",
+      "Septal reduction therapy (myectomy or alcohol septal ablation)",
+      "ICD for sudden death prevention in high risk"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:791",
+    "name": "Marfan syndrome",
+    "treatments": [
+      "Beta-blockers or ARBs to reduce aortic dilation",
+      "Regular aortic imaging",
+      "Elective aortic root surgery when indicated"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:558",
+    "name": "Neurofibromatosis type 1",
+    "treatments": [
+      "Surveillance and symptomatic treatment",
+      "MEK inhibitors (selumetinib) for inoperable plexiform neurofibromas",
+      "Surgical management of complications"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:319",
+    "name": "Tuberous sclerosis complex",
+    "treatments": [
+      "mTOR inhibitors (everolimus) for SEGA/renal angiomyolipomas",
+      "ASMs for seizures",
+      "Multisystem surveillance and supportive care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:803",
+    "name": "Wilson disease",
+    "treatments": [
+      "Copper chelation (penicillamine or trientine)",
+      "Zinc therapy",
+      "Liver transplant in fulminant hepatic failure"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:712",
+    "name": "Hereditary hemochromatosis",
+    "treatments": [
+      "Therapeutic phlebotomy",
+      "Iron chelation if phlebotomy contraindicated",
+      "Family screening and lifestyle modification"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79234",
+    "name": "Dilated cardiomyopathy (familial)",
+    "treatments": [
+      "Guideline-directed heart failure therapy",
+      "ICD/CRT when indicated",
+      "Genetic counseling and family screening"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:590",
+    "name": "Alpha-1 antitrypsin deficiency",
+    "treatments": [
+      "Augmentation therapy (selected genotypes)",
+      "Smoking cessation and pulmonary rehab",
+      "Liver/lung transplant in advanced disease"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:332",
+    "name": "X-linked adrenoleukodystrophy",
+    "treatments": [
+      "Hematopoietic stem cell transplant (early cerebral disease)",
+      "Adrenal hormone replacement",
+      "Monitoring with MRI"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:55",
+    "name": "Achondroplasia",
+    "treatments": [
+      "Vosoritide (growth modulation)",
+      "Orthopedic management and sleep apnea care",
+      "Developmental and psychosocial support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:166024",
+    "name": "Menkes disease",
+    "treatments": [
+      "Parenteral copper histidinate early in life",
+      "Symptom-directed supportive care",
+      "Nutritional support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:213",
+    "name": "Maple syrup urine disease",
+    "treatments": [
+      "Dietary restriction of branched-chain amino acids",
+      "Emergency sick-day protocols",
+      "Consider liver transplantation in severe/refractory cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:903",
+    "name": "Urea cycle disorder (OTC deficiency)",
+    "treatments": [
+      "Protein-restricted diet with essential amino acid supplementation",
+      "Ammonia scavengers (sodium benzoate/phenylbutyrate)",
+      "Arginine/citrulline supplementation; consider liver transplant"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:232",
+    "name": "Tyrosinemia type I",
+    "treatments": [
+      "Nitisinone (NTBC)",
+      "Dietary restriction of tyrosine and phenylalanine",
+      "Liver transplant if progressive liver failure"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:657",
+    "name": "Methylmalonic acidemia",
+    "treatments": [
+      "Protein-restricted diet and carnitine",
+      "Hydroxycobalamin in responsive forms",
+      "Emergency protocols for decompensation"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79227",
+    "name": "Brugada syndrome",
+    "treatments": [
+      "ICD in high-risk patients",
+      "Avoid sodium channel–blocking drugs",
+      "Quinidine in selected cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:311",
+    "name": "Prader–Willi syndrome",
+    "treatments": [
+      "Growth hormone therapy",
+      "Structured nutritional/behavioral management",
+      "Sleep apnea evaluation and treatment"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:772",
+    "name": "Angelman syndrome",
+    "treatments": [
+      "Seizure management",
+      "Behavioral and communication therapies",
+      "Sleep and mobility support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:89944",
+    "name": "Rett syndrome",
+    "treatments": [
+      "Symptomatic seizure and spasticity management",
+      "Breathing abnormality monitoring",
+      "Nutritional and orthopedic care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:3095",
+    "name": "Aicardi-Goutières syndrome",
+    "treatments": [
+      "JAK inhibitors/interferon pathway modulation (emerging)",
+      "Spasticity and seizure management",
+      "Supportive multidisciplinary care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:217569",
+    "name": "CLN2 disease (late infantile NCL)",
+    "treatments": [
+      "Cerliponase alfa (intracerebroventricular)",
+      "Seizure management",
+      "Supportive multidisciplinary care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:448",
+    "name": "Spinal and bulbar muscular atrophy (Kennedy disease)",
+    "treatments": [
+      "Symptomatic and rehabilitative care",
+      "Endocrine management",
+      "Swallowing and respiratory support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:330050",
+    "name": "Friedreich ataxia",
+    "treatments": [
+      "Symptomatic therapy and rehab",
+      "Cardiac management",
+      "Idebenone/use per local practice (variable evidence)"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:90392",
+    "name": "Amyotrophic lateral sclerosis (familial)",
+    "treatments": [
+      "Riluzole and edaravone (where available)",
+      "Respiratory support (NIV)",
+      "Multidisciplinary palliative approach"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:182089",
+    "name": "Narcolepsy type 1",
+    "treatments": [
+      "Wake-promoting agents (modafinil/solriamfetol)",
+      "Sodium oxybate for cataplexy",
+      "Scheduled naps and sleep hygiene"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:569",
+    "name": "Multiple endocrine neoplasia type 2",
+    "treatments": [
+      "Prophylactic/therapeutic thyroidectomy (RET genotype-guided)",
+      "Targeted therapy (RET inhibitors) for advanced disease",
+      "Surveillance for pheochromocytoma and hyperparathyroidism"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:705",
+    "name": "Hereditary angioedema (C1-INH deficiency)",
+    "treatments": [
+      "On-demand C1-INH, icatibant, or ecallantide for attacks",
+      "Long-term prophylaxis (lanadelumab or C1-INH)",
+      "Trigger avoidance and emergency plan"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:247569",
+    "name": "Spinal muscular atrophy type 2",
+    "treatments": [
+      "Nusinersen or risdiplam",
+      "Supportive respiratory and orthopedic care",
+      "Nutritional management and rehab"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:98433",
+    "name": "Congenital myasthenic syndromes",
+    "treatments": [
+      "Cholinesterase inhibitors (selected genotypes)",
+      "3,4-diaminopyridine and beta-2 agonists",
+      "Genotype-specific therapies; avoid contraindicated drugs"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:29109",
+    "name": "Autoimmune polyendocrine syndrome type 1",
+    "treatments": [
+      "Hormone replacement for endocrine failures",
+      "Immunosuppression for autoimmune components",
+      "Infection prophylaxis, dental care, skin management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:231086",
+    "name": "MELAS syndrome",
+    "treatments": [
+      "Mitochondrial cocktail (cofactors and vitamins)",
+      "Arginine/citrulline during acute stroke-like episodes",
+      "Seizure and cardiac management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:39044",
+    "name": "Leigh syndrome",
+    "treatments": [
+      "Supportive care and mitochondrial cofactors",
+      "Targeted vitamin/cofactor therapy if defect-specific",
+      "Respiratory and nutritional support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:792",
+    "name": "Noonan syndrome",
+    "treatments": [
+      "Cardiac lesion-specific care",
+      "Growth hormone in selected cases",
+      "Developmental and educational support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:99818",
+    "name": "Congenital adrenal hyperplasia (21-hydroxylase deficiency)",
+    "treatments": [
+      "Glucocorticoid ± mineralocorticoid replacement",
+      "Stress-dose education",
+      "Surgical consideration for virilization per guidelines"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:399",
+    "name": "Turner syndrome",
+    "treatments": [
+      "Growth hormone therapy",
+      "Estrogen/progestin replacement",
+      "Cardiovascular and metabolic surveillance"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:80389",
+    "name": "X-linked agammaglobulinemia",
+    "treatments": [
+      "Immunoglobulin replacement therapy",
+      "Prompt antibiotics for infections",
+      "Vaccination planning (avoid live vaccines)"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:84",
+    "name": "Ataxia-telangiectasia",
+    "treatments": [
+      "Infection prophylaxis and IVIG in selected cases",
+      "Physical therapy and nutritional support",
+      "Cancer surveillance and supportive care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:447",
+    "name": "Spinal muscular atrophy type 3",
+    "treatments": [
+      "Nusinersen or risdiplam",
+      "Physical therapy and orthopedic management",
+      "Respiratory support as needed"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:324",
+    "name": "Thalassemia major",
+    "treatments": [
+      "Regular red cell transfusions",
+      "Iron chelation therapy",
+      "Curative HSCT in selected patients"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:820",
+    "name": "Von Willebrand disease",
+    "treatments": [
+      "Desmopressin for type 1 (responsive)",
+      "VWF concentrates for procedures/bleeding",
+      "Antifibrinolytics for mucosal bleeding"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79236",
+    "name": "Arrhythmogenic right ventricular cardiomyopathy",
+    "treatments": [
+      "Exercise restriction",
+      "Antiarrhythmics and ICD when indicated",
+      "Catheter ablation for recurrent VT"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:280",
+    "name": "Ehlers–Danlos syndrome (hypermobile type)",
+    "treatments": [
+      "Joint stabilization and physiotherapy",
+      "Pain management",
+      "Autonomic dysfunction management if present"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:90396",
+    "name": "Myotonic dystrophy type 1",
+    "treatments": [
+      "Symptomatic management (myotonia, cardiac conduction)",
+      "Respiratory support and sleep care",
+      "Rehabilitation and cataract surgery when needed"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:217",
+    "name": "Menkes variant (occipital horn syndrome)",
+    "treatments": [
+      "Copper supplementation (variable response)",
+      "Supportive management",
+      "Physical therapy"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:90367",
+    "name": "Charcot–Marie–Tooth disease type 1A",
+    "treatments": [
+      "Ankle–foot orthoses and physiotherapy",
+      "Pain and cramp management",
+      "Genetic counseling"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:778",
+    "name": "Hereditary spastic paraplegia (SPG4)",
+    "treatments": [
+      "Spasticity management (baclofen/tizanidine)",
+      "Physiotherapy and mobility aids",
+      "Bladder and bowel management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:718",
+    "name": "Huntington disease",
+    "treatments": [
+      "VMAT2 inhibitors for chorea",
+      "Psychiatric symptom management",
+      "Supportive multidisciplinary care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:2172",
+    "name": "Bardet–Biedl syndrome",
+    "treatments": [
+      "Weight and metabolic management",
+      "Vision support and low-vision aids",
+      "Renal and endocrine surveillance"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:282",
+    "name": "Epideromolysis bullosa simplex",
+    "treatments": [
+      "Wound care and infection prevention",
+      "Pain management",
+      "Nutritional support and protective dressings"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:99879",
+    "name": "Polycystic kidney disease (autosomal dominant)",
+    "treatments": [
+      "Blood pressure control (RAAS blockade)",
+      "Tolvaptan (where appropriate)",
+      "Renal replacement therapy in ESRD"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:414",
+    "name": "Sarcoidosis (familial/early-onset)",
+    "treatments": [
+      "Glucocorticoids first-line",
+      "Steroid-sparing agents (methotrexate, azathioprine)",
+      "Biologics (infliximab) in refractory disease"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:3300505",
+    "name": "Hereditary ataxia (spinocerebellar type 3)",
+    "treatments": [
+      "Symptomatic therapy and rehab",
+      "Speech/swallow therapy",
+      "Fall prevention"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:762",
+    "name": "Hereditary angioedema with normal C1-INH",
+    "treatments": [
+      "Icatibant for attacks",
+      "Lanadelumab/berotralstat prophylaxis (per local approval)",
+      "Trigger avoidance"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:328",
+    "name": "X-linked hypophosphatemia",
+    "treatments": [
+      "Phosphate and active vitamin D analogs",
+      "Burosumab",
+      "Orthopedic and dental care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:405",
+    "name": "Osteogenesis imperfecta type 1",
+    "treatments": [
+      "Bisphosphonates",
+      "Fracture prevention and orthopedic surgery",
+      "Physiotherapy and hearing surveillance"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:209900",
+    "name": "Behçet disease (early-onset)",
+    "treatments": [
+      "Colchicine for mucocutaneous disease",
+      "Glucocorticoids and immunosuppressants",
+      "TNF inhibitors for refractory cases"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:171",
+    "name": "Alport syndrome",
+    "treatments": [
+      "ACE inhibitors/ARBs for proteinuria",
+      "Hearing aids/cochlear implants as needed",
+      "Renal replacement therapy in ESRD"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:284",
+    "name": "Autosomal dominant optic atrophy",
+    "treatments": [
+      "Low-vision support",
+      "Genetic counseling",
+      "Management of systemic associations if present"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:3108",
+    "name": "Wiskott–Aldrich syndrome",
+    "treatments": [
+      "HSCT (curative)",
+      "IVIG and infection prophylaxis",
+      "Management of bleeding and autoimmunity"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:90345",
+    "name": "Pompe (late-onset adult)",
+    "treatments": [
+      "Enzyme replacement therapy",
+      "Respiratory and physical therapy",
+      "Nutritional support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:391",
+    "name": "Tubular aggregate myopathy",
+    "treatments": [
+      "Symptomatic and rehabilitative care",
+      "Pain and cramp management",
+      "Avoidance of triggers (e.g., heat)"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:345",
+    "name": "Primary biliary cholangitis (familial)",
+    "treatments": [
+      "Ursodeoxycholic acid",
+      "Obeticholic acid in inadequate responders",
+      "Pruritus and osteoporosis management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:217604",
+    "name": "CLN3 disease (juvenile NCL)",
+    "treatments": [
+      "Seizure control and supportive care",
+      "Low-vision aids",
+      "Behavioral and educational support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:79240",
+    "name": "Catecholaminergic polymorphic ventricular tachycardia",
+    "treatments": [
+      "Beta-blockers (nadolol/propranolol)",
+      "Flecainide adjunct in refractory cases",
+      "ICD in high risk; exercise restriction"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:93928",
+    "name": "G6PD deficiency (favism)",
+    "treatments": [
+      "Avoid oxidant drugs/foods",
+      "Treat acute hemolysis supportively",
+      "Folate supplementation"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:77833",
+    "name": "Hereditary spherocytosis",
+    "treatments": [
+      "Folate supplementation",
+      "Splenectomy in moderate/severe disease",
+      "Vaccination and infection prophylaxis"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:555",
+    "name": "Neurofibromatosis type 2",
+    "treatments": [
+      "Surgical/radiosurgical treatment of vestibular schwannomas",
+      "Bevacizumab for progressive tumors",
+      "Hearing rehabilitation"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:2171",
+    "name": "Stickler syndrome",
+    "treatments": [
+      "Ophthalmologic interventions (retinal detachment prophylaxis)",
+      "Hearing aids",
+      "Orthopedic and craniofacial management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:847",
+    "name": "Zellweger spectrum disorder",
+    "treatments": [
+      "Supportive and palliative care",
+      "Nutritional management",
+      "Seizure control as needed"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:568",
+    "name": "Multiple endocrine neoplasia type 1",
+    "treatments": [
+      "Surgical management of hormone-secreting tumors",
+      "Medical control of hypersecretion",
+      "Targeted therapies for metastatic disease"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:901",
+    "name": "Hypophosphatasia (childhood)",
+    "treatments": [
+      "Asfotase alfa",
+      "Orthopedic care and pain control",
+      "Dental management"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:90317",
+    "name": "Biliary atresia (familial/early-onset)",
+    "treatments": [
+      "Kasai portoenterostomy",
+      "Nutritional optimization and fat-soluble vitamins",
+      "Liver transplantation in progressive disease"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:77238",
+    "name": "Hereditary transthyretin amyloidosis",
+    "treatments": [
+      "TTR stabilizers (tafamidis)",
+      "Gene-silencing therapies (patisiran/inotersen)",
+      "Supportive cardiac and neurologic care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:139",
+    "name": "Primary ciliary dyskinesia",
+    "treatments": [
+      "Airway clearance and antibiotics",
+      "Bronchodilators and inhaled therapies",
+      "Fertility counseling"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:77822",
+    "name": "Hereditary elliptocytosis",
+    "treatments": [
+      "Folate supplementation",
+      "Splenectomy in severe hemolysis",
+      "Transfusion support when needed"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:84X",
+    "name": "Ataxia with oculomotor apraxia type 2",
+    "treatments": [
+      "Symptomatic management",
+      "Physical/occupational therapy",
+      "Fall prevention and assistive devices"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:604",
+    "name": "Fanconi anemia",
+    "treatments": [
+      "HSCT for bone marrow failure",
+      "Androgens and growth factors as bridge therapy",
+      "Cancer surveillance and supportive care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:337",
+    "name": "X-linked ichthyosis",
+    "treatments": [
+      "Emollients and keratolytics",
+      "Topical retinoids (selected)",
+      "Dermatology follow-up"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:111",
+    "name": "Albinism (oculocutaneous)",
+    "treatments": [
+      "Sun protection and low-vision aids",
+      "Nystagmus and strabismus management",
+      "Genetic counseling"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:300",
+    "name": "Craniosynostosis (syndromic)",
+    "treatments": [
+      "Craniofacial surgery",
+      "Intracranial pressure monitoring",
+      "Ophthalmologic and dental care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:251",
+    "name": "Tay–Sachs disease",
+    "treatments": [
+      "Supportive and palliative care",
+      "Seizure control",
+      "Nutritional and respiratory support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:5586",
+    "name": "Alpha thalassemia–X-linked intellectual disability (ATR-X)",
+    "treatments": [
+      "Supportive developmental care",
+      "Seizure management",
+      "Feeding and respiratory support as needed"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:345678",
+    "name": "Primary hyperoxaluria type 1",
+    "treatments": [
+      "RNAi therapy (lumasiran)",
+      "High fluid intake and crystallization inhibitors",
+      "Combined liver–kidney transplant in advanced disease"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:999",
+    "name": "Hereditary pancreatitis",
+    "treatments": [
+      "Pancreatic enzyme replacement",
+      "Pain management",
+      "Manage complications (diabetes, exocrine insufficiency)"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:300123",
+    "name": "Congenital hyperinsulinism",
+    "treatments": [
+      "Diazoxide or octreotide",
+      "Glucose infusion and nutritional strategies",
+      "Focal lesion pancreatectomy when indicated"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:535",
+    "name": "Narcolepsy type 2",
+    "treatments": [
+      "Wake-promoting agents",
+      "Behavioral strategies and scheduled naps",
+      "Address comorbid sleep disorders"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:834",
+    "name": "Refsum disease",
+    "treatments": [
+      "Dietary restriction of phytanic acid",
+      "Plasmapheresis in severe cases",
+      "Supportive neurologic care"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:389",
+    "name": "Progeria (Hutchinson–Gilford)",
+    "treatments": [
+      "FTI (lonafarnib)",
+      "Cardiovascular monitoring and management",
+      "Nutritional and physiotherapy support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:199",
+    "name": "Apert syndrome",
+    "treatments": [
+      "Craniofacial and hand surgery",
+      "Airway and dental management",
+      "Developmental and psychosocial support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:988",
+    "name": "Hereditary hemorrhagic telangiectasia",
+    "treatments": [
+      "Treatment of epistaxis (laser, embolization)",
+      "Bevacizumab or antifibrinolytics in severe cases",
+      "Screening and management of AVMs"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:436",
+    "name": "Sjögren–Larsson syndrome",
+    "treatments": [
+      "Emollients and antipruritics",
+      "Seizure and spasticity management",
+      "Vision support"
+    ]
+  },
+  {
+    "disease_id": "ORPHA:418",
+    "name": "Rickets (hereditary vitamin D–dependent)",
+    "treatments": [
+      "Calcitriol/alfacalcidol",
+      "Calcium and phosphate supplementation",
+      "Orthopedic care"
+    ]
+  }
+]

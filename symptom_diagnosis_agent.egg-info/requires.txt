@@ -1,0 +1,7 @@
+pymilvus>=2.4.0
+sentence-transformers>=2.7.0
+torch>=2.2.0
+hpo-toolkit>=0.2.1
+numpy>=1.24.0
+pronto
+langchain_core

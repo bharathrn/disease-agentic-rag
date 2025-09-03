@@ -1,0 +1,31 @@
+[project]
+name = "symptom-diagnosis-agent"
+version = "0.1.0"
+description = "AI agent for symptom → possible diagnosis using HPO + Milvus + embeddings"
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pymilvus>=2.4.0",
+    "sentence-transformers>=2.7.0",
+    "torch>=2.2.0",
+    "hpo-toolkit>=0.2.1",
+    "numpy>=1.24.0",
+    "pronto",
+    "langchain_core",
+    "langgraph",
+    "langchain_community",
+    "fastapi",
+    "uvicorn"
+]
+
+[tool.uv]
+# Optional: specify your python version if you want uv to enforce
+# python = "3.9"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

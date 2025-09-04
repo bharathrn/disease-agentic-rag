@@ -2,6 +2,16 @@
 
 This repository provides a comprehensive system for mapping symptoms to diseases and diseases to treatments. It leverages data ingestion, processing, and retrieval workflows, along with a Milvus vector database for efficient data storage and querying. Below is an overview of the application flow and its components.
 
+## Highlights
+
+- **Vibe Coding**: All the code in this repository was written using Vibe Coding with minimal intervention by me.
+- **Purpose**: This repository was created to revise concepts for interview preparation.
+
+## Demo
+
+[Download and watch the demo](./demos/app-demo.mp4)
+
+
 ## Application Flow
 
 1. **Data Collection**:

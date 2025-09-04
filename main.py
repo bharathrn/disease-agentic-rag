@@ -2,7 +2,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from graph_workflow import graph, MedState
 import logging
 from fastapi.staticfiles import StaticFiles
 

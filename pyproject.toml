@@ -1,9 +1,9 @@
 [project]
-name = "symptom-diagnosis-agent"
+name = "diagnosis-agent"
 version = "0.1.0"
-description = "AI agent for symptom → possible diagnosis using HPO + Milvus + embeddings"
+description = "AI agent for symptom → possible disease → possible treatements using HPO + Milvus + embeddings"
 authors = [
-    { name = "Your Name", email = "your@email.com" }
+    { name = "Bharath", email = "your@email.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.9"

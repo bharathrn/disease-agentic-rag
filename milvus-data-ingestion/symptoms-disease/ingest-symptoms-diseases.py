@@ -1,4 +1,4 @@
-# 02_ingest_milvus_chunked.py
+
 """
 Ingest a JSONL disease KB where each line is a disease dict with fields:
   - disease_id
@@ -46,7 +46,7 @@ OVERLAP_TOKENS = 48     # overlap between consecutive chunks
 BATCH_SIZE = 256        # number of chunks to encode/insert per batch
 CHUNK_TEXT_MAX_LENGTH = 65535  # VARCHAR max_length in Milvus (set large)
 
-INPUT_JSONL = "./data-files/disease_kb_mapped.jsonl"   # file you showed
+INPUT_JSONL = "../../data-files/symptoms-disease/symptoms2disease.jsonl"   # file you showed
 assert Path(INPUT_JSONL).exists(), f"Put your JSONL at: {INPUT_JSONL}"
 
 # Connect

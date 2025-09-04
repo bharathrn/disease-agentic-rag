@@ -1,7 +1,0 @@
-pyproject.toml
-tools.py
-symptom_diagnosis_agent.egg-info/PKG-INFO
-symptom_diagnosis_agent.egg-info/SOURCES.txt
-symptom_diagnosis_agent.egg-info/dependency_links.txt
-symptom_diagnosis_agent.egg-info/requires.txt
-symptom_diagnosis_agent.egg-info/top_level.txt

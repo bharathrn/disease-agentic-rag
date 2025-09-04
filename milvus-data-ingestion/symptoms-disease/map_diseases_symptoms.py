@@ -1,10 +1,28 @@
+"""
+This script enriches disease data by mapping HPO (Human Phenotype Ontology) terms to diseases and expanding their symptom descriptions.
+
+- Input:
+  1. phenotype.hpoa: A file containing disease-to-symptom mappings.
+  2. hpo_terms.json: A JSON file with HPO term details (names and definitions).
+- Output:
+  disease_kb_mapped.jsonl: A JSONL file with enriched disease data, including expanded symptom descriptions.
+
+Steps:
+1. Load HPO term details from the JSON file.
+2. Read and process the phenotype.hpoa file to group diseases and their associated symptoms.
+3. Map HPO IDs to their names and definitions, expanding symptom descriptions.
+4. Save the enriched disease data to a JSONL file.
+
+Usage:
+Run this script directly to process the input files and generate the output file.
+"""
 # 03_expand_diseases.py
 import json
 import pandas as pd
 
-HPOA_FILE = "../data-files/phenotype.hpoa"
-HPO_DICT_FILE = "../data-files/hpo_terms.json"
-OUT_FILE = "../data-files/disease_kb_mapped.jsonl"
+HPOA_FILE = "../../data-files/symptoms-disease/phenotype.hpoa"
+HPO_DICT_FILE = "../../data-files/symptoms-disease/hpo_terms.json"
+OUT_FILE = "../../data-files/symptoms-disease/symptoms2disease.jsonl"
 
 def main():
     with open(HPO_DICT_FILE, "r", encoding="utf-8") as f:

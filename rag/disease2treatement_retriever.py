@@ -5,51 +5,39 @@ Each disease is one row (no chunking needed).
 
 from typing import List, Dict
 import numpy as np
-from pymilvus import connections, Collection, utility
-from sentence_transformers import SentenceTransformer
+from pymilvus import Collection
+from utils.config import MILVUS_HOST, MILVUS_PORT, DIM
+from utils.vector_utils import norm_vec
+from utils.milvus_utils import connect_to_milvus, get_or_create_collection
+from utils.embedding_utils import load_embedder
+from utils.constants import TREATMENT_EMBEDDING_MODEL, TREATMENT_TOP_K
 
 # --------------------
 # CONFIG
 # --------------------
-MILVUS_HOST = "127.0.0.1"
-MILVUS_PORT = "19530"
 COLLECTION_NAME = "disease_treatments"
 
-EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
-DIM = 384  # must match ingestion
-
-TOP_K = 2   # how many diseases to return
+EMBEDDING_MODEL = TREATMENT_EMBEDDING_MODEL
+TOP_K = TREATMENT_TOP_K   # how many diseases to return
 
 # --------------------
 # Connect + Load
 # --------------------
-connections.connect(alias="default", host=MILVUS_HOST, port=MILVUS_PORT)
-collection = Collection(COLLECTION_NAME)
+connect_to_milvus(MILVUS_HOST, MILVUS_PORT)
 
-# Create index if not exists
-if not collection.has_index():
-    print(f"[INFO] No index found for '{COLLECTION_NAME}'. Creating HNSW index...")
-    collection.create_index(
-        field_name="embedding",
-        index_params={
-            "index_type": "HNSW",
-            "metric_type": "IP",   # use IP since we normalized embeddings
-            "params": {"M": 48, "efConstruction": 200}
-        }
-    )
-    print("[INFO] Index created successfully.")
+# Load collection
+collection = get_or_create_collection(
+    collection_name="disease_treatments",
+    dim=DIM,
+    index_params={
+        "index_type": "HNSW",
+        "metric_type": "IP",
+        "params": {"M": 48, "efConstruction": 200}
+    }
+)
 
-# Load into memory
-collection.load()
-
-# --------------------
-# Embedder
-# --------------------
-embedder = SentenceTransformer(EMBEDDING_MODEL)
-
-def norm_vec(v: np.ndarray):
-    n = np.linalg.norm(v)
-    return v / n if n > 0 else v
+# Load embedder
+embedder = load_embedder(EMBEDDING_MODEL)
 
 # --------------------
 # Query function

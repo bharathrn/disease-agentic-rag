@@ -1,9 +1,9 @@
 # tools.py
-from symptoms2disease_retriever import query_and_aggregate
-from disease2treatement_retriever import retrieve_treatments
+from rag.symptoms2disease_retriever import query_and_aggregate
+from rag.disease2treatement_retriever import retrieve_treatments
 from langchain_core.tools import tool
 
-# @tool("symptom_to_disease")
+# --- Tool 1: Symptoms → Disease ---
 def symptom_to_disease_tool(query: str) -> str:
     """
     Given a natural language symptom description,
@@ -15,7 +15,7 @@ def symptom_to_disease_tool(query: str) -> str:
     #     output += f"- {r['name']} ({r['disease_id']}) score={r['score']:.4f}\n"
     return results
 
-# --- Tool 2: Disease → Treatment (from earlier) ---
+# --- Tool 2: Disease → Treatment ---
 def disease_to_treatment_tool(disease_query: str) -> str:
     results = retrieve_treatments(disease_query)
     if not results:

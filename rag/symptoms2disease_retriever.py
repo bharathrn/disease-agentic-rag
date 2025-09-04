@@ -10,48 +10,36 @@ If index doesn't exist, create HNSW index automatically.
 from typing import List, Dict
 from collections import defaultdict
 import numpy as np
-from pymilvus import connections, Collection, utility
+from pymilvus import Collection
 from sentence_transformers import SentenceTransformer
+from utils.config import MILVUS_HOST, MILVUS_PORT, DIM
+from utils.vector_utils import norm_vec
+from utils.milvus_utils import connect_to_milvus, get_or_create_collection
+from utils.embedding_utils import load_embedder
+from utils.constants import SYMPTOMS_EMBEDDING_MODEL, SYMPTOMS_TOP_K_CHUNKS, SYMPTOMS_TOP_N_DISEASES, SYMPTOMS_TOP_M_CHUNKS_PER_DISEASE
 
-# CONFIG (keep consistent with ingestion)
-MILVUS_HOST = "127.0.0.1"
-MILVUS_PORT = "19530"
-COLLECTION_NAME = "disease_kb_chunks"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-DIM = 384  # must match your embedding model
+# CONFIG
+EMBEDDING_MODEL = SYMPTOMS_EMBEDDING_MODEL
+TOP_K_CHUNKS = SYMPTOMS_TOP_K_CHUNKS
+TOP_N_DISEASES = SYMPTOMS_TOP_N_DISEASES
+TOP_M_CHUNKS_PER_DISEASE = SYMPTOMS_TOP_M_CHUNKS_PER_DISEASE
 
-TOP_K_CHUNKS = 40     # how many chunk-level hits to retrieve
-TOP_N_DISEASES = 2    # how many diseases to return
-TOP_M_CHUNKS_PER_DISEASE = 4  # how many top chunks to keep per disease for context
-
-# Connect
-connections.connect(alias="default", host=MILVUS_HOST, port=MILVUS_PORT)
+# Connect to Milvus
+connect_to_milvus(MILVUS_HOST, MILVUS_PORT)
 
 # Load collection
-collection = Collection(COLLECTION_NAME)
+collection = get_or_create_collection(
+    collection_name="disease_kb_chunks",
+    dim=DIM,
+    index_params={
+        "index_type": "HNSW",
+        "metric_type": "IP",
+        "params": {"M": 48, "efConstruction": 200}
+    }
+)
 
-# Ensure index exists
-if not collection.has_index():
-    print(f"[INFO] No index found for '{COLLECTION_NAME}'. Creating HNSW index...")
-    collection.create_index(
-        field_name="embedding",
-        index_params={
-            "index_type": "HNSW",
-            "metric_type": "IP",   # inner product (use COSINE if you didn’t normalize vectors)
-            "params": {"M": 48, "efConstruction": 200}
-        }
-    )
-    print("[INFO] Index created successfully.")
-
-# Load into memory
-collection.load()
-
-# Embedder
-embedder = SentenceTransformer(EMBEDDING_MODEL)
-
-def norm_vec(v: np.ndarray):
-    n = np.linalg.norm(v)
-    return v / n if n > 0 else v
+# Load embedder
+embedder = load_embedder(EMBEDDING_MODEL)
 
 def query_and_aggregate(query_text: str, top_k_chunks: int = TOP_K_CHUNKS):
     # Encode query

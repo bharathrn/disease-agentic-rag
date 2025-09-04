@@ -19,7 +19,8 @@ dependencies = [
     "langgraph",
     "langchain_community",
     "fastapi",
-    "uvicorn"
+    "uvicorn",
+    "pyppeteer"
 ]
 
 [tool.uv]

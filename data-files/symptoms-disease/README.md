@@ -10,23 +10,6 @@ This directory contains data files and scripts for mapping symptoms to diseases.
 - `phenotype.hpoa`: Phenotype annotations.
 - `symptoms2disease.jsonl`: Mapping of symptoms to diseases.
 
-## Data Collection Workflow
-
-1. **Source Identification**:
-   - Identify reliable sources for symptoms and diseases data.
-
-2. **Data Extraction**:
-   - Extract data from the identified sources.
-
-3. **Data Cleaning**:
-   - Remove duplicates and inconsistencies.
-
-4. **Data Formatting**:
-   - Convert data into JSONL format for ingestion.
-
-5. **Validation**:
-   - Validate the data against known standards.
-
 ---
 
 Refer to the `milvus-data-ingestion/symptoms-disease` directory for ingestion scripts.

@@ -16,8 +16,8 @@ Run this script directly to process the input file and generate the output file.
 import pronto
 import json
 
-ONTO_PATH = "hp.obo"
-OUT_JSON = "hpo_terms.json"
+ONTO_PATH = "../../data-files/symptoms-disease/hp.obo"
+OUT_JSON = "../../data-files/symptoms-disease/hpo_terms.json"
 
 def main():
     ontology = pronto.Ontology(ONTO_PATH)
